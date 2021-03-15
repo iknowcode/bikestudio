@@ -1,3 +1,3 @@
 # bikestudio
-Motorcycle adventure website
+Motorcycle adventure booking website,
 Book experiences not just bikes with bike studio.
