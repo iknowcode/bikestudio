@@ -4,7 +4,7 @@ import Logo from '../images/bikestudio.png'
 
 export const Navbar = () => {
     return (
-        <div className="z-50 bg-gray-500 flex items-center justify-between sticky top-0">
+        <div className="z-50 nav-bg flex items-center justify-between sticky top-0">
             
             <div>
             <img src={Logo} alt="LOGO" className="rounded h-30 w-40 ml-3 " />
@@ -12,9 +12,9 @@ export const Navbar = () => {
 
             <div className = "justify-between mr-8 md:block hidden" >
 
-                <Link className="font-bold text-gray-800 text-2xl font-mono mr-4"> Home </Link>
-                <Link className="font-bold text-gray-800 text-2xl font-mono mr-4"> Tour </Link>
-                <Link className="font-bold text-gray-800 text-2xl font-mono mr-4"> About </Link>
+                <Link className="font-bold cursor-pointer text-yellow-600 hover:underline text-2xl font-mono mr-4"> Home </Link>
+                <Link className="font-bold cursor-pointer text-yellow-600 hover:underline text-2xl font-mono mr-4"> Tour </Link>
+                <Link className="font-bold cursor-pointer text-yellow-600 hover:underline text-2xl font-mono mr-4"> About </Link>
             
             </div>
 
